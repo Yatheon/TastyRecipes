@@ -1,7 +1,15 @@
-h1{
+.textbox{
+    padding-top: 1em;
+    width: 40%;
+    margin: auto;
+}
+.imagecontainer{
+    padding-top: 1em;
     text-align: center;
-    font-size: 2em;
-    color: white;
+}
+.imagecontainer img{
+    width: 30%;
+    height: 30%;
 }
 p{
     text-align: center;

@@ -4,10 +4,10 @@
 # Comment next four lines to deactivate. (Allows external access)
 #------------------------------------------------------------------------------
 
-#Order Deny,Allow
-#Deny from all
-#Allow from 127.0.0.1
-#Allow from ::1
+Order Deny,Allow
+Deny from all
+Allow from 127.0.0.1
+Allow from ::1
 
 #------------------------------------------------------------------------------
 # To allow execution of cgi scripts in this directory uncomment next two lines.
@@ -23,7 +23,7 @@ Options +ExecCGI +FollowSymLinks
 # To lock server, uncomment the next 4 lines. (A name and password is required)
 #------------------------------------------------------------------------------
 
-AuthName "Uniform Server - Server Access"
-AuthType Basic
-AuthUserFile ../../htpasswd/www/.htpasswd
-Require valid-user
+#AuthName "Uniform Server - Server Access"
+#AuthType Basic
+#AuthUserFile ../../htpasswd/www/.htpasswd
+#Require valid-user

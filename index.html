@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset = ″utf-8″ />
+    <meta charset="UTF-8">
     <link rel="icon" href="favicon.ico" type="image/gif" sizes="16x16">
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Index</title>
 </head>
 <body>
@@ -14,7 +15,10 @@
         <a class="active" href="index.html">Home</a>
         <a href="calendar.html">Calendar</a>
         <div class="dropdown">
-            <button class="dropbtn">Weekly Recipes</button>
+            <button class="dropbtn">
+                Weekly Recipes
+                <i class="fa fa-caret-down"></i>
+            </button>
             <div class="dropdown-content">
                 <a href="pancakes.html">Pancakes</a>
                 <a href="meatballs.html">Meatballs</a>
@@ -22,9 +26,15 @@
         </div>
     </div>
     <div>
-        <h1>Welcome to tasty recipes! </h1>
-        <p>Here you can find a new recipe for every single day of the week, All year round!</p>
-        <p>Use o</p>
+        <h1>Welcome! </h1>
+    </div>
+    <div class="textbox">
+        <p>Press on the calendar bellow to find recipes for every day of the year!</p>
+    </div>
+    <div class="imagecontainer">
+        <a href="calendar.html">
+            <img src="calendar.png" alt="Picture of calendar">
+        </a>
     </div>
     <footer></footer>
 </body>

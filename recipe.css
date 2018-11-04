@@ -15,7 +15,6 @@ h2 {
     color: darkred;
 }
 .foodPresent>img {
-    position:  center;
     vertical-align: middle;
     padding-top: 1%;
     width: 50%;
@@ -24,7 +23,7 @@ h2 {
     margin-bottom: 0.7em;
 
 }
-.wrapper{
+.list-wrapper{
     text-align: center;
 }
 .ingredients-list-item>div{
@@ -38,6 +37,62 @@ h2 {
     font-size: 1em;
     font-weight: bold;
     color: red;
+}
+.container {
+    width: 30%;
+    margin: auto;
+    margin-top: 5px;
+    color: white;
+    background-color: #222222;
+    border-radius: 5px;
+    padding: 10px;
+}
+.messagebox-wrapper{
+    text-align: center;
+}
+.textbox{
+    resize: none;
+    color: white;
+    width: 30%;
+    margin-top: 5px;
+    background-color: #222222;
+    border-radius: 5px;
+    padding: 10px;
+}
+.sendbutton-wrapper{
+    width: 30%;
+    text-align: right;
+    margin: auto;
+}
+.sendbutton{
+    font-weight: bold;
+    font-size: 1em;
+    color: black;
+    padding: 5px;
+    background-color: red;
+    display: inline;
+    border-radius: 5px;
+    border: 2px solid grey;
+}
+.sendbutton:active{
+    background-color: #940e0e;
+}
+.name{
+    font-weight: bold;
+    color: #d21111;
+}
+.darker {
+    background-color: #0D0D0D;
+}
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.time {
+    float: right;
+    color: #aaa;
 }
 @media (max-width: 660px) {
     h1{

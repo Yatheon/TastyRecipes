@@ -1,14 +1,20 @@
 body{
     background-color: #333333;
-    font-family: Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 4em;
+    color: white;
+    background: #d21111 ;
 }
 footer{
     height: 10em;
 }
 .title{
-    overflow: hidden;
     background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .title a{
@@ -24,9 +30,7 @@ footer{
     overflow: hidden;
     background-color: #333 ;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    font-family: Arial, Helvetica, sans-serif;
 }
-
 .navbar a {
     float: left;
     font-size: 16px;
@@ -34,11 +38,11 @@ footer{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: inherit;
 }
 
 .dropdown {
     overflow: hidden;
+    float: left;
 }
 
 .dropbtn {
@@ -47,8 +51,7 @@ footer{
     outline: none;
     color: white;
     padding: 13px 16px;
-    background-color: inherit;
-    font-family: inherit;
+    background-color: #333;
 }
 .dropbtn-active {
     font-size: 16px;
@@ -56,7 +59,6 @@ footer{
     outline: none;
     color: white;
     padding: 13px 16px;
-    font-family: inherit;
     background-color: #d21111;
 }
 .dropdown-content {
@@ -80,16 +82,13 @@ footer{
 .navbar a.active {
     background-color: #d21111;
 }
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover, .dropbtn:hover, .dropdown-content a:hover {
     background-color: #7a0b0b;
 }
-.dropdown-content a:hover {
-    background-color: #7a0b0b;
-}
-/*Clicking on navbar items*/
 .navbar a:active, .dropdown-content a:active {
     background-color: #940e0e ;
 }
+
 @media (max-width: 660px) {
     .title a{
         font-size: 3em;

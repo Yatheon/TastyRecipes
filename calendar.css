@@ -1,31 +1,28 @@
-
-ul {list-style-type: none;}
-
 .month {
     padding: 2%;
     background: red;
     text-align: center;
 }
-
-.month ul {
-    margin: 0;
-    padding: 0;
-}
-
 .month ul li {
     color: white;
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
 .weekdays {
     list-style-type:none;
     display:flex;
     justify-content: center;
     background-color: #333;
 }
-
 .weekdays li {
     padding: 0.5em;
     width: 14.2%;
