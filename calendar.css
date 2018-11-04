@@ -1,0 +1,91 @@
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.month {
+    padding: 2%;
+    background: red;
+    text-align: center;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.weekdays {
+    list-style-type:none;
+    display:flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+.weekdays li {
+    padding: 0.5em;
+    width: 14.2%;
+    color: white;
+    text-align: center;
+}
+
+.days {
+    background: #eee;
+
+}
+.week {
+    display: flex;
+    flex-direction: row;
+    background-color: #333333;
+    justify-content: space-around;
+}
+
+.item{
+    background: black;
+    margin: 2px;
+    width: 14.2%;
+    padding-top: 14.2%;
+    position: relative;
+}
+.content{
+    color: white;
+    position:  absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: left;
+    font-size: 1em;
+}
+.content>a>img{
+     width: 75%;
+     height: 75%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+.not-current{
+    background: #727171;
+    margin: 2px;
+    width: 14.2%;
+    padding-top: 14.2%;
+    position: relative;
+}
+@media (max-width: 600px) {
+    .content{
+        font-size: 0.7em;
+    }
+}
+@media (max-width: 340px) {
+    .content>a>img{
+        width: 60%;
+        height: 60%;
+
+    }
+}
