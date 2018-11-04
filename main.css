@@ -1,5 +1,9 @@
 body{
-    background-color: grey;
+    background-color: #333333;
+    font-family: Verdana, sans-serif;
+}
+footer{
+    height: 10em;
 }
 .title{
     overflow: hidden;
@@ -8,10 +12,10 @@ body{
 }
 
 .title a{
-    font-size: 60px;
+    font-size: 6em;
     font-weight: bold;
     text-decoration: none;
-    padding: 10px;
+    padding: 1%;
     color: #d21111;
     display: block;
     text-align:center;
@@ -86,17 +90,17 @@ body{
 .navbar a:active, .dropdown-content a:active {
     background-color: #940e0e ;
 }
-@media (max-width: 420px) {
+@media (max-width: 660px) {
     .title a{
-        font-size: 25px;
+        font-size: 3em;
     }
     .navbar a {
-        font-size: 10px;
+        font-size: 0.7em;
     }
     .dropbtn {
-        font-size: 10px;
+        font-size: 0.7em;
     }
     .dropbtn-active {
-        font-size: 10px;
+        font-size: 0.7em;
     }
 }
