@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24f8779c-59d0-4f6d-8328-1aa8a33b11e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meatballs.html" beforeDir="false" afterPath="$PROJECT_DIR$/meatballs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pancakes.html" beforeDir="false" afterPath="$PROJECT_DIR$/pancakes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipe.css" beforeDir="false" afterPath="$PROJECT_DIR$/recipe.css" afterDir="false" />
-    </list>
+    <list default="true" id="24f8779c-59d0-4f6d-8328-1aa8a33b11e0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +60,7 @@
               <entry file="file://$PROJECT_DIR$/main.css">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="-255">
-                    <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+                    <caret column="4" selection-start-column="4" selection-end-column="4" />
                   </state>
                 </provider>
               </entry>
@@ -143,7 +138,7 @@
         <entry file="file://$PROJECT_DIR$/pancakes.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="83">
-              <caret line="156" column="31" lean-forward="true" selection-start-line="156" selection-start-column="31" selection-end-line="156" selection-end-column="31" />
+              <caret line="156" column="31" selection-start-line="156" selection-start-column="31" selection-end-line="156" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -277,15 +272,15 @@
       <workItem from="1541162473226" duration="5675000" />
       <workItem from="1541248612935" duration="15225000" />
       <workItem from="1541335245469" duration="31074000" />
-      <workItem from="1541419051959" duration="22462000" />
+      <workItem from="1541419051959" duration="22547000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76450000" />
+    <option name="totallyTimeSpent" value="76535000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2873" y="0" width="974" height="1047" extended-state="1" />
+    <frame x="2873" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -404,7 +399,7 @@
     <entry file="file://$PROJECT_DIR$/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-255">
-          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -432,7 +427,7 @@
     <entry file="file://$PROJECT_DIR$/pancakes.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="83">
-          <caret line="156" column="31" lean-forward="true" selection-start-line="156" selection-start-column="31" selection-end-line="156" selection-end-column="31" />
+          <caret line="156" column="31" selection-start-line="156" selection-start-column="31" selection-end-line="156" selection-end-column="31" />
         </state>
       </provider>
     </entry>
