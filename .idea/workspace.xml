@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24f8779c-59d0-4f6d-8328-1aa8a33b11e0" name="Default Changelist" comment="" />
+    <list default="true" id="24f8779c-59d0-4f6d-8328-1aa8a33b11e0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,24 +105,24 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="4551" />
-          <entry key="html" value="3137" />
+          <entry key="html" value="3141" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="4551" />
-          <entry key="HTML" value="3137" />
+          <entry key="HTML" value="3141" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+            <state relative-caret-position="136">
+              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -134,10 +136,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pancakes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
+            <state relative-caret-position="2652">
               <caret line="156" column="31" selection-start-line="156" selection-start-column="31" selection-end-line="156" selection-end-column="31" />
             </state>
           </provider>
@@ -197,13 +199,13 @@
         <option value="$PROJECT_DIR$/NavigationBar.css" />
         <option value="$PROJECT_DIR$/Calendar.html" />
         <option value="$PROJECT_DIR$/calendar.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index.css" />
         <option value="$PROJECT_DIR$/calendar.css" />
         <option value="$PROJECT_DIR$/main.css" />
         <option value="$PROJECT_DIR$/recipe.css" />
         <option value="$PROJECT_DIR$/meatballs.html" />
         <option value="$PROJECT_DIR$/pancakes.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -272,12 +274,12 @@
       <workItem from="1541162473226" duration="5675000" />
       <workItem from="1541248612935" duration="15225000" />
       <workItem from="1541335245469" duration="31074000" />
-      <workItem from="1541419051959" duration="22547000" />
+      <workItem from="1541419051959" duration="23154000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76535000" />
+    <option name="totallyTimeSpent" value="77142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2873" y="0" width="974" height="1047" extended-state="0" />
@@ -375,13 +377,6 @@
     <entry file="file://$PROJECT_DIR$/pancakes.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -426,8 +421,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pancakes.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
+        <state relative-caret-position="2652">
           <caret line="156" column="31" selection-start-line="156" selection-start-column="31" selection-end-line="156" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
         </state>
       </provider>
     </entry>
