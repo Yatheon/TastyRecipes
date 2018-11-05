@@ -39,7 +39,24 @@
     border-radius: 5px;
     padding: 10px;
 }
-.messagebox-wrapper{
+.darker {
+    background-color: #0D0D0D;
+}
+
+.name{
+    font-weight: bold;
+    color: #d21111;
+}
+.time {
+    float: right;
+    color: #aaa;
+}
+.message-container::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.textbox-wrapper{
     text-align: center;
 }
 .textbox{
@@ -69,23 +86,7 @@
 .sendbutton:active{
     background-color: #940e0e;
 }
-.name{
-    font-weight: bold;
-    color: #d21111;
-}
-.darker {
-    background-color: #0D0D0D;
-}
-.message-container::after {
-    content: "";
-    clear: both;
-    display: table;
-}
 
-.time {
-    float: right;
-    color: #aaa;
-}
 @media (max-width: 660px) {
     h1{
         font-size: 2em;
