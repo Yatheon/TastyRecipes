@@ -1,6 +1,7 @@
 body{
     background-color: #333333;
     font-size: 14px;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 .pagetitle{
@@ -14,7 +15,6 @@ body{
 }
 footer{
     height: 10em;
-    text-align: center;
 }
 .title{
     background-color: black;
@@ -30,38 +30,34 @@ footer{
     text-align:center;
 }
 .navbar {
+    font-size: 1em;
     overflow: hidden;
     background-color: #333 ;
 
 }
 .navbar a {
     float: left;
-    font-size: 16px;
     color: white;
-    text-align: center;
-    padding: 14px 16px;
+    padding: 0.9em 1em;
     text-decoration: none;
 }
 
 .dropdown {
-    overflow: hidden;
     float: left;
 }
 
 .dropbtn {
-    font-size: 16px;
     border: none;
     outline: none;
     color: white;
-    padding: 13px 16px;
+    padding: 0.9em 1em;
     background-color: #333;
 }
 .dropbtn-active {
-    font-size: 16px;
     border: none;
     outline: none;
     color: white;
-    padding: 13px 16px;
+    padding: 0.9em 1em;
     background-color: #d21111;
 }
 .dropdown-content {
@@ -72,7 +68,7 @@ footer{
 }
 .dropdown-content a {
     float: none;
-    padding: 12px 16px;
+    padding: 14px 16px;
     text-decoration: none;
     display: block;
     text-align: center;

@@ -46,7 +46,6 @@
 }
 .content-day{
     position: absolute;
-    color: red;
     font-weight: bold;
     top: 0;
     z-index: 2;
