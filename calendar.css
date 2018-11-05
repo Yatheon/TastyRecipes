@@ -1,27 +1,22 @@
-.month {
+.pagetitle {
     padding: 2%;
-    background: red;
-    text-align: center;
 }
-.month ul li {
+.pagetitle ul li {
     color: white;
-    font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-.month .prev {
+.pagetitle .prev {
     float: left;
     padding-top: 10px;
 }
-.month .next {
+.pagetitle .next {
     float: right;
     padding-top: 10px;
 }
 .weekdays {
-    list-style-type:none;
     display:flex;
     justify-content: center;
-    background-color: #333;
 }
 .weekdays li {
     padding: 0.5em;
@@ -29,20 +24,14 @@
     color: white;
     text-align: center;
 }
-
-.days {
-    background: #eee;
-
-}
 .week {
     display: flex;
     flex-direction: row;
     background-color: #333333;
     justify-content: space-around;
 }
-
-.item{
-    background: black;
+.day{
+    background: #0D0D0D;
     margin: 2px;
     width: 12%;
     padding-top: 12%;
@@ -55,25 +44,24 @@
     padding-top: 12%;
     position: relative;
 }
-.content{
-    color: white;
-    position:  absolute;
+.content-day{
+    position: absolute;
+    color: red;
+    font-weight: bold;
     top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    text-align: left;
-    font-size: 1em;
+    z-index: 2;
 }
-.content>a>img{
-    position:  center;
-    vertical-align: middle;
-    width: 75%;
-    height: 75%;
-    display: block;
-    margin: auto;
- }
+.content-image{
+    position: absolute;
+    text-align: center;
+    top: 9.6%;
+    z-index: 1;
+}
 
+.content-image img{
+    width: 80%;
+    height: auto;
+}
 @media (max-width: 600px) {
     .content{
         font-size: 0.7em;
@@ -83,6 +71,5 @@
     .content>a>img{
         width: 60%;
         height: 60%;
-
     }
 }

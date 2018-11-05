@@ -1,17 +1,20 @@
 body{
     background-color: #333333;
+    font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
 }
-h1{
+.pagetitle{
     text-align: center;
     padding-top: 1%;
     padding-bottom: 1%;
-    font-size: 4em;
+    font-size: 3em;
+    text-transform: uppercase;
     color: white;
     background: #d21111 ;
 }
 footer{
     height: 10em;
+    text-align: center;
 }
 .title{
     background-color: black;
@@ -29,7 +32,7 @@ footer{
 .navbar {
     overflow: hidden;
     background-color: #333 ;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
 }
 .navbar a {
     float: left;
@@ -65,9 +68,7 @@ footer{
     display: none;
     position: absolute;
     background-color: #333;
-    min-width: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    padding: 0 1px 1px 1px;
 }
 .dropdown-content a {
     float: none;
@@ -90,6 +91,9 @@ footer{
 }
 
 @media (max-width: 660px) {
+    .pagetitle{
+        font-size: 1.5em;
+    }
     .title a{
         font-size: 3em;
     }

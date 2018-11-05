@@ -2,6 +2,9 @@
     padding-top: 1em;
     width: 40%;
     margin: auto;
+    text-align: center;
+    font-size: 1em;
+    color: white;
 }
 .imagecontainer{
     padding-top: 1em;
@@ -10,9 +13,4 @@
 .imagecontainer img{
     width: 30%;
     height: 30%;
-}
-p{
-    text-align: center;
-    font-size: 1em;
-    color: white;
 }

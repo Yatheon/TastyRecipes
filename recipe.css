@@ -1,12 +1,12 @@
-h1{
-    text-align: center;
+.foodPresent img {
+    vertical-align: middle;
     padding-top: 1%;
-    padding-bottom: 1%;
-    font-size: 4em;
-    color: white;
-    background: #d21111 ;
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 0.7em;
 }
-h2 {
+.header-recipe {
     text-align: center;
     font-size: 2.5em;
     background: black;
@@ -14,31 +14,23 @@ h2 {
     text-transform: uppercase;
     color: darkred;
 }
-.foodPresent>img {
-    vertical-align: middle;
-    padding-top: 1%;
-    width: 50%;
-    display: block;
-    margin: auto;
-    margin-bottom: 0.7em;
 
-}
 .list-wrapper{
     text-align: center;
 }
-.ingredients-list-item>div{
+.ingredients-list-item div{
     display: inline-block;
     padding-bottom: 1em;
 }
-.item{
+.text{
     color: white;
 }
 .item-nr{
-    font-size: 1em;
+    font-size: 1.3em;
     font-weight: bold;
     color: red;
 }
-.container {
+.message-container {
     width: 30%;
     margin: auto;
     margin-top: 5px;
@@ -84,7 +76,7 @@ h2 {
 .darker {
     background-color: #0D0D0D;
 }
-.container::after {
+.message-container::after {
     content: "";
     clear: both;
     display: table;
